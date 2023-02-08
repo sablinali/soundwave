@@ -11,6 +11,7 @@ const Home = (props: Props) =>{
                     <Col>
                     <Image src={girl} alt="My Image" className="d-none d-xxl-block fixed-bottom" style={{height: "75%", width: "450px"}}/>
                     </Col>
+                    
                     <Col>
                     <FeelTheMusicCard /></Col>
                 </Row>
