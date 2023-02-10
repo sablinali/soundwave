@@ -7,9 +7,9 @@ type Props = {}
 
 const Home = (props: Props) =>{
     return (
-                <Row style={{ width: '100%', height: '100%'}} className="d-flex align-items-center justify-content- ">
+                <Row style={{ width: '100%', height: '100%', marginTop: '180px'}} className="d-flex align-items-center justify-content- ">
                     <Col>
-                    <Image src={girl} alt="My Image" className="d-none d-xxl-block fixed-bottom" style={{height: "75%", width: "450px"}}/>
+                    <Image src={girl} alt="My Image" className="d-none d-xl-block fixed-bottom" style={{height: "75%", width: "450px"}}/>
                     </Col>
                     
                     <Col>

@@ -10,7 +10,7 @@ type Props = {}
 
 const Join = (props: Props) => {
   return (
-    <Container  className="d-sm-flex align-items-center justify-content" style={{marginTop: '50px'}}>
+    <Container  className="d-sm-flex align-items-center justify-content" style={{marginTop: '50px', minWidth: '400px', maxWidth: '800px'}}>
     <h1 style={{fontWeight: 'bold', fontSize: '4rem'}}>Join the <span style={{color: '#bc3a80'}}>fun.</span></h1>
     <Form style={{background: '#202027', width: '80%', borderRadius: '20px', padding: 20}}>
     <Form.Group className="mb-3" controlId="formBasicText">

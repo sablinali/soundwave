@@ -3,12 +3,12 @@ import facebooklogo from '../assets/facebook.svg'
 import twitterlogo from '../assets/twitter.svg'
 import { Container, Row, Col, Image, Card } from 'react-bootstrap'
 
-type Props = {}
+// type Props = {}
 
 export function Footer(): JSX.Element{
   return (
     <footer>
-    <Card className="bg-dark" >
+    <Card className="bg-dark" style={{width: "100vw", height: '80px'}} >
     <Card.Footer  >
     <Container fluid={true}>
       <Row className="justify-content-center">
